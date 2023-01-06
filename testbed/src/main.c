@@ -1,7 +1,6 @@
-#include <core/logger.h>
-#include <core/asserts.h>
+#include <test.h>
 
-int main(void) {
-    KASSERT(1 > 2);
+int main() {
+    print_int(32);
     return 0;
 }
