@@ -1,6 +1,7 @@
-#include <test.h>
+#include <core/logger.h>
+#include <core/asserts.h>
 
 int main() {
-    print_int(32);
+    VA_ASSERT(1 == 2);
     return 0;
 }
