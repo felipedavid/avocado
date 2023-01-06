@@ -1,5 +1,10 @@
 @echo off
 
+if not exist bin/ (
+    echo "Creating bin directory..."
+    mkdir bin
+)
+
 echo "Building everything..."
 
 pushd engine

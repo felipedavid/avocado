@@ -13,4 +13,4 @@ set linker_flags=-L../bin/ -lengine.lib
 set defines=-D_DEBUG -D_IMPORT
 
 echo "Building %assembly%..."
-clang %c_filenames% %compiler_flags% -o ../bin/%assembly%.dll %defines% %include_flags% %linker_flags%
+clang %c_filenames% %compiler_flags% -o ../bin/%assembly%.exe %defines% %include_flags% %linker_flags%
